@@ -2,6 +2,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Welcome to web fundamental by Mozilla</title>
+		<link href="styles/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -13,7 +15,7 @@
 		<h6>sub-sub-subsubheading</h6>
 		<img src="images/scene1.jpg" width="20%" alt="scene 1, downloaded from Google free image">
 		<br/>
-		<img src="firefox.webp" width="20%">
+		<img src="firefox.webp" width="20%" onclick="alertMe()">
 		<p class=prap>This is <strong>inside</strong> a paragraph<br/>
 		This is another line inside the paragraph	
 		</p>
@@ -28,7 +30,8 @@
 		</ul>
 
 		<h3>Another paragraph</h3>
-		<p>
+		<h2 id="specialh2">Another paragraph</h2>
+		<p class="test" id="specialh2">
 		When you have an emergency situation, please do the following step:
 		</p>
 		<ol>
@@ -37,6 +40,9 @@
 			<li>Pay attention to around</li>
 		</ol>	
 		<a href="https://google.com">Google</a> is the biggest search engine in the world.
+
+
+		<script src="scripts/script.js"> </script>
 	</body>
 
 
