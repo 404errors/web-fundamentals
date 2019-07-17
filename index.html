@@ -13,9 +13,9 @@
 		<h4>Sub-subheading</h4>
 		<h5>Sub-subsubheading</h5>
 		<h6>sub-sub-subsubheading</h6>
-		<img src="images/scene1.jpg" width="20%" alt="scene 1, downloaded from Google free image">
+		<img src="images/scene1.jpg" onclick="alertMe('inline attribute')" width="20%" alt="scene 1, downloaded from Google free image">
 		<br/>
-		<img src="firefox.webp" width="20%" onclick="alertMe()">
+		<img id="myImg" src="firefox.webp" width="20%" >
 		<p class=prap>This is <strong>inside</strong> a paragraph<br/>
 		This is another line inside the paragraph	
 		</p>
@@ -41,6 +41,8 @@
 		</ol>	
 		<a href="https://google.com">Google</a> is the biggest search engine in the world.
 
+		<br/>
+		<button id="changeUserBtn">Change User</button>
 
 		<script src="scripts/script.js"> </script>
 	</body>
