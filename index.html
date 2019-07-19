@@ -1,52 +1,63 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Welcome to web fundamental by Mozilla</title>
-		<link href="styles/style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-	</head>
 
-	<body>
-		<h1>Main Title</h1>
-		<h2>Top level heading</h2>
-		<h3>Subheading</h3>
-		<h4>Sub-subheading</h4>
-		<h5>Sub-subsubheading</h5>
-		<h6>sub-sub-subsubheading</h6>
-		<img src="images/scene1.jpg" onclick="alertMe('inline attribute')" width="20%" alt="scene 1, downloaded from Google free image">
-		<br/>
-		<img id="myImg" src="firefox.webp" width="20%" >
-		<p class=prap>This is <strong>inside</strong> a paragraph<br/>
-		This is another line inside the paragraph	
-		</p>
-		This is outside a paragraph</br>
-		This is another line outside the paragraph
-		<p>
-		Synergixtechnologies is best ERP company in Singapore. Below are some information about this company:<br/>
-		</p>
-		<ul>
-			<li>Founded in 2001 by Koh Yang Uei in Singapore</li>
-			<li>Development department is in Hanoi, founded in 2010</li>
-		</ul>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kevin Nguyen">
+    <meta name="description" content="This is Kevin's page during the time he learn how to use html/css/javascript a professional way. It may look rediculous but that's it. Stay tuned">
+        
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <title>Welcome to web fundamental by Mozilla</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
 
-		<h3>Another paragraph</h3>
-		<h2 id="specialh2">Another paragraph</h2>
-		<p class="test" id="specialh2">
-		When you have an emergency situation, please do the following step:
-		</p>
-		<ol>
-			<li>Call 911</li>
-			<li>Run to a safe place</li>
-			<li>Pay attention to around</li>
-		</ol>	
-		<a href="https://google.com">Google</a> is the biggest search engine in the world.
+<body>
+    <h1>Main Title</h1>
+    <h2>Top level heading</h2>
+    <h3>Subheading</h3>
+    <img id="myImg" src="firefox.webp" width="20%">
+    <p class=prap>This is <strong>inside</strong> a paragraph<br />
+        This is another line inside the paragraph
+    </p>
+    <button id="changeUserBtn">Change User</button>
+    <p>
+        Synergixtechnologies is best ERP company in Singapore. Below are some information about this company:<br />
+    </p>
+    <ul>
+        <li>Founded in 2001 by Koh Yang Uei in Singapore</li>
+        <li>Development department is in Hanoi, founded in 2010</li>
+    </ul>
 
-		<br/>
-		<button id="changeUserBtn">Change User</button>
+    <h3>Another paragraph</h3>
+    <h2 id="specialh2">Another paragraph</h2>
+    <p class="test" id="specialh2">
+        When you have an emergency situation, please do the following step:
+    </p>
+    <ol>
+        <li>Call 911</li>
+        <li>Run to a safe place</li>
+        <li>Pay attention to around</li>
+    </ol>
+    <a href="https://google.com">Google</a> is the biggest search engine in the world.
+    <br/>
+    <a href="anotherpage.html" title="Synergix Home Page" target="_blank">Synergix</a>
 
-		<script src="scripts/script.js"> </script>
-	</body>
+    <br />
+    <input type="text" disabled>
+    <p>Another input</p>
+    <input type="text" value="Text contains &quot;double &quot; quote">
+    <input type="text" value='Text contains "double" quote'>
+    <br/>
+    <input type="text" value="Text contains &apos;single &apos; quote">
+    <input type="text" value="Text contains 'single'  quote">
+    <br/>
+    <input type="text" value="Text contains less than &lt; and greater than &gt; ">
+    <input type="text" value="Text contains ampersand &amp;">
+    <br/>
+    <a href="pages/cat.html" target="_blank" title="Introduction to cat">Find more about cat</a>
 
-
+    <script src="scripts/script.js"> </script>
+</body>
 
 </html>
